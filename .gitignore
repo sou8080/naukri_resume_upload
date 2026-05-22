@@ -1,0 +1,67 @@
+# =========================
+# Maven / Build
+# =========================
+target/
+**/target/
+
+# =========================
+# IDE Files
+# =========================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# =========================
+# Allure / Test Reports
+# =========================
+allure-results/
+allure-report/
+test-output/
+reports/
+
+# =========================
+# Chrome / Selenium / Playwright Profiles
+# =========================
+chrome-profile/
+chrome-profile/**
+user-data/
+sessions/
+
+# =========================
+# Session Files
+# =========================
+src/test/resources/sessions/
+*.data
+*.json
+
+# =========================
+# Resume Files
+# =========================
+src/test/resources/resumes/
+
+# =========================
+# Config Files
+# =========================
+src/test/resources/config.properties
+config.properties
+.env
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Screenshots / Videos / Downloads
+# =========================
+screenshots/
+videos/
+downloads/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
